@@ -11,9 +11,6 @@ import org.junit.runners.Parameterized;
 import java.util.List;
 import java.util.Random;
 
-import static io.restassured.path.json.JsonPath.given;
-import static org.hamcrest.CoreMatchers.notNullValue;
-
 @RunWith(Parameterized.class)
 public class CreateOrderTest {
 

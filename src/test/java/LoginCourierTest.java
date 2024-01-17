@@ -1,23 +1,14 @@
-import io.restassured.http.ContentType;
-import io.restassured.response.ValidatableResponse;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.http.HttpStatus;
 import org.example.client.CourierClient;
-import org.example.dto.CourierCreateRequest;
-import org.example.dto.CourierLoginRequest;
 import org.example.steps.CourierSteps;
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.junit.AfterClass;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.rootPath;
 
 public class LoginCourierTest {
     private static CourierSteps courierSteps;

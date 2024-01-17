@@ -2,7 +2,6 @@ package org.example.steps;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.example.client.CourierClient;
 import org.example.dto.CourierCreateRequest;
 import org.example.dto.CourierLoginRequest;
